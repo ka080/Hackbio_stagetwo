@@ -23,3 +23,14 @@ Find genes that define each cluster, allowing biological interpretation (e.g., i
 7. Cell Type Annotation
 Purpose:
 Assign biological identities to clusters using marker genes, reference datasets, or automated tools.
+
+8. source of dataset and how to download :
+The dataset used in this project is a bone marrow single-cell RNA-seq dataset, originally obtained from the Chan Zuckerberg Initiative (CZI) Single-Cell Data Portal. For the purposes of this repository, the dataset has been slightly modified to align with the analysis workflow (notably, gene identifiers were converted from Ensembl IDs to gene symbols for compatibility with certain tools).
+
+To obtain the original dataset:
+
+Visit the CZI Single-Cell Data Portal: https://singlecell.broadinstitute.org/single_cell
+
+Search for bone marrow single-cell RNA-seq datasets.
+
+Download the raw counts matrix (or .h5ad/.mtx files) along with the associated metadata.
